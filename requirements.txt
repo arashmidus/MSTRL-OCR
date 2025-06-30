@@ -1,2 +1,7 @@
 streamlit
-requests 
+requests
+python-dotenv
+openai>=1.12.0
+anthropic
+tiktoken
+jsonschema>=4.17.3 

@@ -1,0 +1,484 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Legal Case Schema",
+  "description": "Schema for legal case management data including case information, parties, court process, and resolution",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "caseName": {
+      "type": "string",
+      "description": "Name or title of the case"
+    },
+    "caseInformation": {
+      "type": "object",
+      "description": "Basic case details and identifiers",
+      "properties": {
+        "caseId": {
+          "type": "string",
+          "description": "Unique case identifier or docket number",
+          "pattern": "^CASE-\\d{4}-\\d{5}$"
+        },
+        "filingDate": {
+          "type": "string",
+          "description": "Date when the case was filed in court",
+          "format": "date"
+        },
+        "typeOfInjury": {
+          "type": "string",
+          "description": "Type of personal injury incident"
+        },
+        "location": {
+          "type": "string",
+          "description": "Location of incident or venue"
+        },
+        "courtJurisdiction": {
+          "type": "string",
+          "description": "Court where case is filed"
+        },
+        "status": {
+          "type": "string",
+          "description": "Current case status",
+          "enum": ["Active", "Settled", "Closed"]
+        },
+        "legalGrounds": {
+          "type": "array",
+          "description": "Legal basis for claims",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "partiesInvolved": {
+      "type": "object",
+      "description": "All parties and their representatives",
+      "properties": {
+        "plaintiffs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": "string" }
+            }
+          }
+        },
+        "defendants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": "string" }
+            }
+          }
+        },
+        "plaintiffCounsel": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "firm": { "type": "string" }
+            }
+          }
+        },
+        "defenseCounsel": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "firm": { "type": "string" }
+            }
+          }
+        },
+        "insuranceCompanies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "insuredParty": { "type": "string" },
+              "policyNumber": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "courtProcess": {
+      "type": "object",
+      "description": "Stages from initial complaint to appeals",
+      "properties": {
+        "complaint": {
+          "type": "object",
+          "properties": {
+            "filedDate": { "type": "string", "format": "date" },
+            "servedDate": { "type": "string", "format": "date" },
+            "description": { "type": "string" },
+            "participants": { "type": "array", "items": { "type": "string" } },
+            "documents": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "response": {
+          "type": "object",
+          "properties": {
+            "filedDate": { "type": "string", "format": "date" },
+            "responseType": { "type": "string" },
+            "description": { "type": "string" },
+            "participants": { "type": "array", "items": { "type": "string" } },
+            "documents": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "discovery": {
+          "type": "object",
+          "properties": {
+            "startDate": { "type": "string", "format": "date" },
+            "endDate": { "type": "string", "format": "date" },
+            "methods": { "type": "array", "items": { "type": "string" } },
+            "description": { "type": "string" },
+            "participants": { "type": "array", "items": { "type": "string" } },
+            "documents": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "preTrialMotions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "motionType": { "type": "string" },
+              "filedBy": { "type": "string" },
+              "filedDate": { "type": "string", "format": "date" },
+              "decision": { "type": "string" },
+              "decisionDate": { "type": "string", "format": "date" }
+            }
+          }
+        },
+        "settlementDiscussions": {
+          "type": "object",
+          "properties": {
+            "attempted": { "type": "boolean" },
+            "sessions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "date": { "type": "string", "format": "date" },
+                  "method": { "type": "string" },
+                  "outcome": { "type": "string" }
+                }
+              }
+            },
+            "participants": { "type": "array", "items": { "type": "string" } },
+            "documents": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "trial": {
+          "type": "object",
+          "properties": {
+            "startDate": { "type": "string", "format": "date" },
+            "endDate": { "type": "string", "format": "date" },
+            "juryTrial": { "type": "boolean" },
+            "judge": { "type": "string" },
+            "description": { "type": "string" },
+            "participants": { "type": "array", "items": { "type": "string" } },
+            "documents": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "verdict": {
+          "type": "object",
+          "properties": {
+            "date": { "type": "string", "format": "date" },
+            "verdictFor": { "type": "string" },
+            "awardAmount": { "type": "number" },
+            "participants": { "type": "array", "items": { "type": "string" } },
+            "documents": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "appeals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "filedBy": { "type": "string" },
+              "court": { "type": "string" },
+              "caseNumber": { "type": "string" },
+              "filedDate": { "type": "string", "format": "date" },
+              "outcome": { "type": "string" },
+              "participants": { "type": "array", "items": { "type": "string" } },
+              "documents": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "legalOperationsAndTimelines": {
+      "type": "object",
+      "description": "Key legal deadlines and dates",
+      "properties": {
+        "statuteOfLimitationsDate": { "type": "string", "format": "date" },
+        "discoveryDeadline": { "type": "string", "format": "date" },
+        "motionsDeadline": { "type": "string", "format": "date" },
+        "trialDate": { "type": "string", "format": "date" },
+        "appealDeadline": { "type": "string", "format": "date" },
+        "otherKeyDates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "event": { "type": "string" },
+              "date": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    },
+    "businessAdministration": {
+      "type": "object",
+      "description": "Firm involvement, billing, scheduling, filings",
+      "required": ["lawFirms", "billing", "administrativeStaff", "scheduling", "courtFilings"],
+      "properties": {
+        "lawFirms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["partyType", "firmName", "attorneys", "feeArrangement"],
+            "properties": {
+              "partyType": { "type": "string" },
+              "firmName": { "type": "string" },
+              "attorneys": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "role"],
+                  "properties": {
+                    "name": { "type": "string" },
+                    "role": { "type": "string" }
+                  }
+                }
+              },
+              "feeArrangement": { "type": "string" },
+              "contingencyPercentage": { "type": "number" },
+              "hourlyRate": { "type": "number" }
+            }
+          }
+        },
+        "billing": {
+          "type": "object",
+          "required": ["billingMethod", "expensesIncurred", "totalBilled"],
+          "properties": {
+            "billingMethod": { "type": "string" },
+            "contingencyPercentage": { "type": "number" },
+            "hourlyRate": { "type": ["number", "null"] },
+            "hoursBilled": { "type": ["number", "null"] },
+            "expensesIncurred": { "type": "number" },
+            "totalBilled": { "type": "number" }
+          }
+        },
+        "administrativeStaff": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "role", "associatedWith"],
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": "string" },
+              "associatedWith": { "type": "string" }
+            }
+          }
+        },
+        "scheduling": {
+          "type": "object",
+          "required": ["events"],
+          "properties": {
+            "events": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["date", "event"],
+                "properties": {
+                  "date": { "type": "string", "format": "date" },
+                  "event": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "courtFilings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["document", "filedDate"],
+            "properties": {
+              "document": { "type": "string" },
+              "filedDate": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    },
+    "damages": {
+      "type": "object",
+      "description": "Economic, non-economic, and punitive damages",
+      "properties": {
+        "economic": {
+          "type": "object",
+          "properties": {
+            "medicalBills": { "type": "number" },
+            "lostWages": { "type": "number" },
+            "propertyDamage": { "type": "number" },
+            "otherExpenses": { "type": "number" },
+            "totalEconomic": { "type": "number" }
+          }
+        },
+        "nonEconomic": {
+          "type": "object",
+          "properties": {
+            "painAndSuffering": { "type": "number" },
+            "emotionalDistress": { "type": "number" },
+            "totalNonEconomic": { "type": "number" }
+          }
+        },
+        "punitive": {
+          "type": "object",
+          "properties": {
+            "punitiveAward": { "type": "number" },
+            "reason": { "type": "string" }
+          }
+        },
+        "totalDamages": { "type": "number" }
+      }
+    },
+    "documentsAndEvidence": {
+      "type": "object",
+      "description": "Evidence collected in the case",
+      "properties": {
+        "medicalRecords": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "provider": { "type": "string" },
+              "description": { "type": "string" },
+              "dateObtained": { "type": "string", "format": "date" }
+            }
+          }
+        },
+        "policeReports": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "agency": { "type": "string" },
+              "reportNumber": { "type": "string" },
+              "date": { "type": "string", "format": "date" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "expertTestimonies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "expertName": { "type": "string" },
+              "field": { "type": "string" },
+              "date": { "type": "string", "format": "date" },
+              "type": { "type": "string" }
+            }
+          }
+        },
+        "depositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "deponent": { "type": "string" },
+              "role": { "type": "string" },
+              "date": { "type": "string", "format": "date" },
+              "transcriptId": { "type": "string" }
+            }
+          }
+        },
+        "exhibits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "description": { "type": "string" },
+              "submittedBy": { "type": "string" },
+              "admittedIntoEvidence": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "caseResolution": {
+      "type": "object",
+      "description": "Final outcome and post-trial actions",
+      "required": ["settlement", "trialOutcome", "postTrialMotions", "appeal", "enforcement"],
+      "properties": {
+        "settlement": {
+          "type": "object",
+          "required": ["reached", "amount", "date", "details"],
+          "properties": {
+            "reached": { "type": "boolean" },
+            "amount": { "type": ["number", "null"] },
+            "date": { "type": ["string", "null"], "format": "date" },
+            "details": { "type": ["string", "null"] }
+          }
+        },
+        "trialOutcome": {
+          "type": "object",
+          "required": ["verdictDate", "verdictFor", "compensatoryDamagesAwarded", "punitiveDamagesAwarded", "judgmentEnteredDate"],
+          "properties": {
+            "verdictDate": { "type": "string", "format": "date" },
+            "verdictFor": { "type": "string" },
+            "compensatoryDamagesAwarded": { "type": "number" },
+            "punitiveDamagesAwarded": { "type": "number" },
+            "judgmentEnteredDate": { "type": "string", "format": "date" }
+          }
+        },
+        "postTrialMotions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["motion", "filedBy", "filedDate", "outcome", "decisionDate"],
+            "properties": {
+              "motion": { "type": "string" },
+              "filedBy": { "type": "string" },
+              "filedDate": { "type": "string", "format": "date" },
+              "outcome": { "type": "string" },
+              "decisionDate": { "type": "string", "format": "date" }
+            }
+          }
+        },
+        "appeal": {
+          "type": "object",
+          "required": ["filed", "filedDate", "appealCourt", "outcome"],
+          "properties": {
+            "filed": { "type": "boolean" },
+            "filedDate": { "type": "string", "format": "date" },
+            "appealCourt": { "type": "string" },
+            "outcome": { "type": "string" }
+          }
+        },
+        "enforcement": {
+          "type": "object",
+          "required": ["judgmentPaid", "amountPaid", "actions"],
+          "properties": {
+            "judgmentPaid": { "type": "boolean" },
+            "amountPaid": { "type": "number" },
+            "actions": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    }
+  }
+}
+  

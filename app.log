@@ -1,0 +1,833 @@
+2025-06-29 17:40:58,936 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:40:58,936 - modules.filing - INFO - No save operation requested
+2025-06-29 17:40:58,936 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:40:58,936 - modules.filing - INFO - No save operation requested
+2025-06-29 17:41:01,552 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:41:01,552 - modules.filing - INFO - No save operation requested
+2025-06-29 17:41:01,552 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:41:01,552 - modules.filing - INFO - No save operation requested
+2025-06-29 17:41:02,248 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:41:02,248 - modules.filing - INFO - No save operation requested
+2025-06-29 17:41:02,248 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:41:02,248 - modules.filing - INFO - No save operation requested
+2025-06-29 17:42:00,682 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:42:00,682 - modules.filing - INFO - No save operation requested
+2025-06-29 17:42:00,682 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:42:00,682 - modules.filing - INFO - No save operation requested
+2025-06-29 17:42:02,146 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:42:02,146 - modules.filing - INFO - No save operation requested
+2025-06-29 17:42:02,146 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:42:02,146 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:11,064 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:43:11,070 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:11,070 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:11,070 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:11,071 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:11,071 - __main__ - ERROR - No files uploaded
+2025-06-29 17:43:23,715 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:43:23,716 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:23,716 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:23,716 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:23,716 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:24,849 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:43:24,850 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:24,850 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:24,850 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:24,850 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:24,851 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 17:43:24,852 - __main__ - INFO - Processing file 1/1: Resume_AA (4).pdf
+2025-06-29 17:43:24,855 - __main__ - INFO - File read successfully: Resume_AA (4).pdf
+2025-06-29 17:43:24,855 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 17:43:29,196 - __main__ - INFO - OCR request successful
+2025-06-29 17:43:29,197 - __main__ - INFO - Text extracted successfully
+2025-06-29 17:43:29,199 - __main__ - INFO - File metadata calculated: 1 pages, 272 words
+2025-06-29 17:43:29,199 - __main__ - INFO - Processing single-page document
+2025-06-29 17:43:29,199 - modules.ocr - INFO - Processing single chunk for Resume_AA (4).pdf
+2025-06-29 17:43:29,200 - modules.ocr - INFO - Sending request to Mistral API
+2025-06-29 17:43:40,649 - modules.ocr - INFO - Received successful response from Mistral API
+2025-06-29 17:43:40,649 - modules.ocr - INFO - Successfully parsed structured data
+2025-06-29 17:43:40,653 - __main__ - INFO - Document processed successfully
+2025-06-29 17:43:40,654 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 17:43:48,294 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:43:48,295 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:48,296 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:48,296 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:48,296 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:54,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 17:43:58,286 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:43:58,290 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:58,290 - modules.filing - INFO - No save operation requested
+2025-06-29 17:43:58,291 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:43:58,291 - modules.filing - INFO - No save operation requested
+2025-06-29 17:44:20,411 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:44:20,414 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:44:20,415 - modules.filing - INFO - No save operation requested
+2025-06-29 17:44:20,415 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:44:20,415 - modules.filing - INFO - No save operation requested
+2025-06-29 17:44:25,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 17:44:29,453 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:44:29,454 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:44:29,454 - modules.filing - INFO - No save operation requested
+2025-06-29 17:44:29,455 - modules.filing - INFO - Starting perform_save_operation
+2025-06-29 17:44:29,455 - modules.filing - INFO - No save operation requested
+2025-06-29 17:47:18,150 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:49:36,630 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:49:37,822 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:49:37,824 - __main__ - ERROR - No files uploaded
+2025-06-29 17:49:43,171 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:49:43,958 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:49:43,962 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 17:49:43,963 - __main__ - INFO - Processing file 1/1: 0020357457.pdf
+2025-06-29 17:49:43,966 - __main__ - INFO - File read successfully: 0020357457.pdf
+2025-06-29 17:49:43,967 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 17:49:47,049 - __main__ - INFO - OCR request successful
+2025-06-29 17:49:47,050 - __main__ - INFO - Text extracted successfully
+2025-06-29 17:49:47,051 - __main__ - INFO - File metadata calculated: 12 pages, 3185 words
+2025-06-29 17:49:47,051 - __main__ - INFO - Processing multi-page document with 12 pages
+2025-06-29 17:49:47,052 - modules.ocr - INFO - Processing document pages for 0020357457.pdf
+2025-06-29 17:49:47,052 - modules.ocr - INFO - Found 12 pages
+2025-06-29 17:49:47,052 - modules.ocr - INFO - Processing 12 pages
+2025-06-29 17:49:47,053 - modules.ocr - INFO - Processing page 1/12
+2025-06-29 17:49:47,053 - modules.ocr - INFO - Processing single page 1 of 12 for 0020357457.pdf
+2025-06-29 17:49:47,053 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:49:57,744 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:49:57,744 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:49:57,747 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 17:49:57,749 - modules.ocr - INFO - Processing page 2/12
+2025-06-29 17:49:57,750 - modules.ocr - INFO - Processing single page 2 of 12 for 0020357457.pdf
+2025-06-29 17:49:57,750 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:49:58,117 - modules.ocr - ERROR - API Error for page: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 17:49:58,121 - modules.ocr - ERROR - Error processing page 2: API Error: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 17:49:58,123 - modules.ocr - INFO - Processing page 3/12
+2025-06-29 17:49:58,123 - modules.ocr - INFO - Processing single page 3 of 12 for 0020357457.pdf
+2025-06-29 17:49:58,123 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:49:58,422 - modules.ocr - ERROR - API Error for page: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 17:49:58,426 - modules.ocr - ERROR - Error processing page 3: API Error: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 17:49:58,427 - modules.ocr - INFO - Processing page 4/12
+2025-06-29 17:49:58,427 - modules.ocr - INFO - Processing single page 4 of 12 for 0020357457.pdf
+2025-06-29 17:49:58,427 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:50:08,917 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:50:08,918 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:50:08,921 - modules.ocr - INFO - Successfully processed page 4
+2025-06-29 17:50:08,922 - modules.ocr - INFO - Processing page 5/12
+2025-06-29 17:50:08,923 - modules.ocr - INFO - Processing single page 5 of 12 for 0020357457.pdf
+2025-06-29 17:50:08,923 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:50:19,695 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:50:19,696 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:50:19,699 - modules.ocr - INFO - Successfully processed page 5
+2025-06-29 17:50:19,701 - modules.ocr - INFO - Processing page 6/12
+2025-06-29 17:50:19,701 - modules.ocr - INFO - Processing single page 6 of 12 for 0020357457.pdf
+2025-06-29 17:50:19,701 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:51:01,053 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:51:01,054 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:51:01,057 - modules.ocr - INFO - Successfully processed page 6
+2025-06-29 17:51:01,060 - modules.ocr - INFO - Processing page 7/12
+2025-06-29 17:51:01,061 - modules.ocr - INFO - Processing single page 7 of 12 for 0020357457.pdf
+2025-06-29 17:51:01,061 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:51:15,938 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:51:15,938 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:51:15,942 - modules.ocr - INFO - Successfully processed page 7
+2025-06-29 17:51:15,944 - modules.ocr - INFO - Processing page 8/12
+2025-06-29 17:51:15,945 - modules.ocr - INFO - Processing single page 8 of 12 for 0020357457.pdf
+2025-06-29 17:51:15,945 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:51:32,343 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:51:32,343 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:51:32,346 - modules.ocr - INFO - Successfully processed page 8
+2025-06-29 17:51:32,347 - modules.ocr - INFO - Processing page 9/12
+2025-06-29 17:51:32,348 - modules.ocr - INFO - Processing single page 9 of 12 for 0020357457.pdf
+2025-06-29 17:51:32,348 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:51:33,042 - modules.ocr - ERROR - API Error for page: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 17:51:33,045 - modules.ocr - ERROR - Error processing page 9: API Error: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 17:51:33,046 - modules.ocr - INFO - Processing page 10/12
+2025-06-29 17:51:33,047 - modules.ocr - INFO - Processing single page 10 of 12 for 0020357457.pdf
+2025-06-29 17:51:33,047 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:51:44,298 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:51:44,299 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:51:44,303 - modules.ocr - INFO - Successfully processed page 10
+2025-06-29 17:51:44,305 - modules.ocr - INFO - Processing page 11/12
+2025-06-29 17:51:44,306 - modules.ocr - INFO - Processing single page 11 of 12 for 0020357457.pdf
+2025-06-29 17:51:44,306 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:51:57,104 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:51:57,104 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:51:57,105 - modules.ocr - INFO - Successfully processed page 11
+2025-06-29 17:51:57,106 - modules.ocr - INFO - Processing page 12/12
+2025-06-29 17:51:57,106 - modules.ocr - INFO - Processing single page 12 of 12 for 0020357457.pdf
+2025-06-29 17:51:57,106 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 17:52:05,665 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 17:52:05,665 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 17:52:05,666 - modules.ocr - INFO - Successfully processed page 12
+2025-06-29 17:52:05,667 - modules.ocr - INFO - Combining page results
+2025-06-29 17:52:05,668 - modules.ocr - INFO - Combining results from 12 pages for 0020357457.pdf
+2025-06-29 17:52:05,668 - modules.ocr - WARNING - Skipping page with error: API Error 429
+2025-06-29 17:52:05,668 - modules.ocr - WARNING - Skipping page with error: API Error 429
+2025-06-29 17:52:05,668 - modules.ocr - WARNING - Skipping page with error: API Error 429
+2025-06-29 17:52:05,668 - modules.ocr - INFO - Successfully processed 9 out of 12 pages
+2025-06-29 17:52:05,668 - modules.ocr - INFO - Combined results: 9 successful pages, 3 failed pages
+2025-06-29 17:52:05,668 - __main__ - INFO - Document processed successfully
+2025-06-29 17:52:05,669 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 17:53:56,027 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:54:01,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 17:54:12,986 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:58:35,011 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 17:58:41,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 17:58:47,939 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:01:31,495 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:01:38,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:01:43,988 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:02:36,413 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:02:42,597 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:02:51,080 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:03:20,597 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:03:25,944 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:03:30,030 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:05:19,843 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:05:29,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:05:32,721 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:08:12,823 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:08:19,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:08:24,794 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:08:27,933 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:08:34,486 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:08:35,935 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:08:35,941 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 18:08:35,943 - __main__ - INFO - Processing file 1/1: Frame 178.pdf
+2025-06-29 18:08:35,945 - __main__ - INFO - File read successfully: Frame 178.pdf
+2025-06-29 18:08:35,946 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 18:08:38,055 - __main__ - INFO - OCR request successful
+2025-06-29 18:08:38,057 - __main__ - INFO - Text extracted successfully
+2025-06-29 18:08:38,059 - __main__ - INFO - File metadata calculated: 1 pages, 195 words
+2025-06-29 18:08:38,059 - __main__ - INFO - Processing single-page document
+2025-06-29 18:08:38,060 - modules.ocr - INFO - Processing single chunk for Frame 178.pdf
+2025-06-29 18:08:38,060 - modules.ocr - INFO - Sending request to Mistral API
+2025-06-29 18:08:54,144 - modules.ocr - INFO - Received successful response from Mistral API
+2025-06-29 18:08:54,145 - modules.ocr - INFO - Successfully parsed structured data
+2025-06-29 18:08:54,149 - __main__ - INFO - Document processed successfully
+2025-06-29 18:08:54,150 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 18:08:58,788 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:09:03,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:09:09,141 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:10:52,378 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:10:58,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:11:00,260 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:14:33,037 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:14:38,721 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:15:05,416 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:15:53,045 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:15:53,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-29 18:15:53,431 - openai._base_client - INFO - Retrying request to /chat/completions in 0.965995 seconds
+2025-06-29 18:15:54,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-29 18:15:54,559 - openai._base_client - INFO - Retrying request to /chat/completions in 1.689023 seconds
+2025-06-29 18:15:56,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-29 18:17:13,253 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:17:18,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:17:31,409 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:37:53,274 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:37:53,648 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:38:04,358 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:38:04,360 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:38:20,103 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:38:20,107 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:39:04,624 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:39:04,626 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:39:05,965 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:39:05,968 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:39:05,975 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 18:39:05,976 - __main__ - INFO - Processing file 1/1: combinepdf (47).pdf
+2025-06-29 18:39:06,026 - __main__ - INFO - File read successfully: combinepdf (47).pdf
+2025-06-29 18:39:06,027 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 18:39:36,352 - __main__ - INFO - OCR request successful
+2025-06-29 18:39:36,354 - __main__ - INFO - Text extracted successfully
+2025-06-29 18:39:36,369 - __main__ - INFO - File metadata calculated: 44 pages, 13236 words
+2025-06-29 18:39:36,369 - __main__ - INFO - Processing multi-page document with 44 pages
+2025-06-29 18:39:36,370 - modules.ocr - INFO - Processing document pages for combinepdf (47).pdf
+2025-06-29 18:39:36,370 - modules.ocr - INFO - Found 44 pages
+2025-06-29 18:39:36,370 - modules.ocr - INFO - Processing 44 pages
+2025-06-29 18:39:36,370 - modules.ocr - INFO - Processing page 1/44
+2025-06-29 18:39:36,371 - modules.ocr - INFO - Processing single page 1 of 44 for combinepdf (47).pdf
+2025-06-29 18:39:36,371 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:39:45,541 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:39:45,542 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:39:45,545 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 18:39:45,547 - modules.ocr - INFO - Processing page 2/44
+2025-06-29 18:39:45,548 - modules.ocr - INFO - Processing single page 2 of 44 for combinepdf (47).pdf
+2025-06-29 18:39:45,548 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:39:53,387 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:39:53,391 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:40:00,858 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:40:00,859 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:40:00,863 - modules.ocr - INFO - Successfully processed page 2
+2025-06-29 18:40:27,870 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:40:27,872 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:40:28,459 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:40:28,461 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:40:28,466 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 18:40:28,467 - __main__ - INFO - Processing file 1/1: combinepdf (47)1.pdf
+2025-06-29 18:40:28,496 - __main__ - INFO - File read successfully: combinepdf (47)1.pdf
+2025-06-29 18:40:28,497 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 18:41:08,889 - __main__ - INFO - OCR request successful
+2025-06-29 18:41:08,891 - __main__ - INFO - Text extracted successfully
+2025-06-29 18:41:08,903 - __main__ - INFO - File metadata calculated: 21 pages, 14381 words
+2025-06-29 18:41:08,904 - __main__ - INFO - Processing multi-page document with 21 pages
+2025-06-29 18:41:08,904 - modules.ocr - INFO - Processing document pages for combinepdf (47)1.pdf
+2025-06-29 18:41:08,904 - modules.ocr - INFO - Found 21 pages
+2025-06-29 18:41:08,905 - modules.ocr - INFO - Processing 21 pages
+2025-06-29 18:41:08,905 - modules.ocr - INFO - Processing page 1/21
+2025-06-29 18:41:08,906 - modules.ocr - INFO - Processing single page 1 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:41:08,906 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:41:31,295 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:41:31,296 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:41:31,300 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 18:41:31,301 - modules.ocr - INFO - Processing page 2/21
+2025-06-29 18:41:31,302 - modules.ocr - INFO - Processing single page 2 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:41:31,302 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:41:53,338 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:41:53,338 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:41:53,341 - modules.ocr - INFO - Successfully processed page 2
+2025-06-29 18:41:53,343 - modules.ocr - INFO - Processing page 3/21
+2025-06-29 18:41:53,343 - modules.ocr - INFO - Processing single page 3 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:41:53,343 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:42:03,585 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:42:03,586 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:42:03,589 - modules.ocr - INFO - Successfully processed page 3
+2025-06-29 18:42:03,591 - modules.ocr - INFO - Processing page 4/21
+2025-06-29 18:42:03,592 - modules.ocr - INFO - Processing single page 4 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:42:03,592 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:42:15,451 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:42:15,451 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:42:15,455 - modules.ocr - INFO - Successfully processed page 4
+2025-06-29 18:42:15,456 - modules.ocr - INFO - Processing page 5/21
+2025-06-29 18:42:15,456 - modules.ocr - INFO - Processing single page 5 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:42:15,457 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:42:27,779 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:42:27,780 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:42:27,783 - modules.ocr - INFO - Successfully processed page 5
+2025-06-29 18:42:27,784 - modules.ocr - INFO - Processing page 6/21
+2025-06-29 18:42:27,784 - modules.ocr - INFO - Processing single page 6 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:42:27,784 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:42:41,883 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:42:41,883 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:42:41,886 - modules.ocr - INFO - Successfully processed page 6
+2025-06-29 18:42:41,889 - modules.ocr - INFO - Processing page 7/21
+2025-06-29 18:42:41,889 - modules.ocr - INFO - Processing single page 7 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:42:41,889 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:42:57,857 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:42:57,857 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:42:57,860 - modules.ocr - INFO - Successfully processed page 7
+2025-06-29 18:42:57,863 - modules.ocr - INFO - Processing page 8/21
+2025-06-29 18:42:57,863 - modules.ocr - INFO - Processing single page 8 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:42:57,864 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:43:19,977 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:43:19,978 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:43:19,981 - modules.ocr - INFO - Successfully processed page 8
+2025-06-29 18:43:19,983 - modules.ocr - INFO - Processing page 9/21
+2025-06-29 18:43:19,983 - modules.ocr - INFO - Processing single page 9 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:43:19,984 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:43:42,003 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:43:42,003 - modules.ocr - ERROR - Failed to parse structured data for page: Unterminated string starting at: line 29 column 17 (char 1019)
+2025-06-29 18:43:42,007 - modules.ocr - ERROR - Error processing page 9: Failed to parse structured data: Unterminated string starting at: line 29 column 17 (char 1019)
+2025-06-29 18:43:42,009 - modules.ocr - INFO - Processing page 10/21
+2025-06-29 18:43:42,009 - modules.ocr - INFO - Processing single page 10 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:43:42,009 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:43:56,235 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:43:56,236 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:43:56,239 - modules.ocr - INFO - Successfully processed page 10
+2025-06-29 18:43:56,241 - modules.ocr - INFO - Processing page 11/21
+2025-06-29 18:43:56,242 - modules.ocr - INFO - Processing single page 11 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:43:56,242 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:44:10,147 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:44:10,147 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:44:10,151 - modules.ocr - INFO - Successfully processed page 11
+2025-06-29 18:44:10,153 - modules.ocr - INFO - Processing page 12/21
+2025-06-29 18:44:10,154 - modules.ocr - INFO - Processing single page 12 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:44:10,154 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:44:29,195 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:44:29,196 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:44:29,199 - modules.ocr - INFO - Successfully processed page 12
+2025-06-29 18:44:29,200 - modules.ocr - INFO - Processing page 13/21
+2025-06-29 18:44:29,200 - modules.ocr - INFO - Processing single page 13 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:44:29,201 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:44:47,528 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:44:47,529 - modules.ocr - ERROR - Failed to parse structured data for page: Unterminated string starting at: line 182 column 9 (char 4087)
+2025-06-29 18:44:47,531 - modules.ocr - ERROR - Error processing page 13: Failed to parse structured data: Unterminated string starting at: line 182 column 9 (char 4087)
+2025-06-29 18:44:47,532 - modules.ocr - INFO - Processing page 14/21
+2025-06-29 18:44:47,532 - modules.ocr - INFO - Processing single page 14 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:44:47,533 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:44:51,644 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:44:51,644 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:44:51,647 - modules.ocr - INFO - Successfully processed page 14
+2025-06-29 18:44:51,649 - modules.ocr - INFO - Processing page 15/21
+2025-06-29 18:44:51,649 - modules.ocr - INFO - Processing single page 15 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:44:51,649 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:45:03,525 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:45:03,525 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:45:03,528 - modules.ocr - INFO - Successfully processed page 15
+2025-06-29 18:45:03,530 - modules.ocr - INFO - Processing page 16/21
+2025-06-29 18:45:03,530 - modules.ocr - INFO - Processing single page 16 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:45:03,531 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:45:25,572 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:45:25,573 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:45:25,575 - modules.ocr - INFO - Successfully processed page 16
+2025-06-29 18:45:25,577 - modules.ocr - INFO - Processing page 17/21
+2025-06-29 18:45:25,577 - modules.ocr - INFO - Processing single page 17 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:45:25,577 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:45:32,876 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:45:32,876 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:45:32,879 - modules.ocr - INFO - Successfully processed page 17
+2025-06-29 18:45:32,881 - modules.ocr - INFO - Processing page 18/21
+2025-06-29 18:45:32,882 - modules.ocr - INFO - Processing single page 18 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:45:32,882 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:45:47,619 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:45:47,620 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:45:47,623 - modules.ocr - INFO - Successfully processed page 18
+2025-06-29 18:45:47,625 - modules.ocr - INFO - Processing page 19/21
+2025-06-29 18:45:47,626 - modules.ocr - INFO - Processing single page 19 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:45:47,626 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:46:20,103 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:46:20,103 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:46:20,107 - modules.ocr - INFO - Successfully processed page 19
+2025-06-29 18:46:20,109 - modules.ocr - INFO - Processing page 20/21
+2025-06-29 18:46:20,110 - modules.ocr - INFO - Processing single page 20 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:46:20,110 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:46:32,089 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:46:32,089 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:46:32,093 - modules.ocr - INFO - Successfully processed page 20
+2025-06-29 18:46:32,095 - modules.ocr - INFO - Processing page 21/21
+2025-06-29 18:46:32,095 - modules.ocr - INFO - Processing single page 21 of 21 for combinepdf (47)1.pdf
+2025-06-29 18:46:32,095 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:46:38,527 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:46:38,527 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:46:38,530 - modules.ocr - INFO - Successfully processed page 21
+2025-06-29 18:46:38,532 - modules.ocr - INFO - Combining page results
+2025-06-29 18:46:38,532 - modules.ocr - INFO - Combining results from 21 pages for combinepdf (47)1.pdf
+2025-06-29 18:46:38,532 - modules.ocr - WARNING - Skipping page with error: Failed to parse structured data: Unterminated string starting at: line 29 column 17 (char 1019)
+2025-06-29 18:46:38,533 - modules.ocr - WARNING - Skipping page with error: Failed to parse structured data: Unterminated string starting at: line 182 column 9 (char 4087)
+2025-06-29 18:46:38,533 - modules.ocr - INFO - Successfully processed 19 out of 21 pages
+2025-06-29 18:46:38,534 - modules.ocr - INFO - Combined results: 19 successful pages, 2 failed pages
+2025-06-29 18:46:38,534 - __main__ - INFO - Document processed successfully
+2025-06-29 18:46:38,534 - __main__ - INFO - Validating structured data against legal schema
+2025-06-29 18:46:38,535 - modules.schema_validator - ERROR - Validation error at '': 'caseInformation' is a required property
+2025-06-29 18:46:38,535 - __main__ - WARNING - Schema validation warnings: ["Validation error at '': 'caseInformation' is a required property"]
+2025-06-29 18:46:38,535 - __main__ - ERROR - Error saving to schema database: name 'save_to_schema_db' is not defined
+2025-06-29 18:46:38,536 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 18:53:17,140 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:53:17,148 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:53:18,403 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:53:18,404 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:53:19,240 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 18:53:19,241 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 18:53:19,246 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 18:53:19,246 - __main__ - INFO - Processing file 1/1: combinepdf (47)11.pdf
+2025-06-29 18:53:19,263 - __main__ - INFO - File read successfully: combinepdf (47)11.pdf
+2025-06-29 18:53:19,263 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 18:53:32,927 - __main__ - INFO - OCR request successful
+2025-06-29 18:53:32,928 - __main__ - INFO - Text extracted successfully
+2025-06-29 18:53:32,934 - __main__ - INFO - File metadata calculated: 10 pages, 4498 words
+2025-06-29 18:53:32,934 - __main__ - INFO - Processing multi-page document with 10 pages
+2025-06-29 18:53:32,934 - modules.ocr - INFO - Processing document pages for combinepdf (47)11.pdf
+2025-06-29 18:53:32,935 - modules.ocr - INFO - Found 10 pages
+2025-06-29 18:53:32,935 - modules.ocr - INFO - Processing 10 pages
+2025-06-29 18:53:32,935 - modules.ocr - INFO - Processing page 1/10
+2025-06-29 18:53:32,935 - modules.ocr - INFO - Processing single page 1 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:53:32,935 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:53:50,594 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:53:50,595 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:53:50,598 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 18:53:50,600 - modules.ocr - INFO - Processing page 2/10
+2025-06-29 18:53:50,601 - modules.ocr - INFO - Processing single page 2 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:53:50,601 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:54:15,097 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:54:15,098 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:54:15,101 - modules.ocr - INFO - Successfully processed page 2
+2025-06-29 18:54:15,103 - modules.ocr - INFO - Processing page 3/10
+2025-06-29 18:54:15,104 - modules.ocr - INFO - Processing single page 3 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:54:15,104 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:54:19,625 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:54:19,626 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:54:19,629 - modules.ocr - INFO - Successfully processed page 3
+2025-06-29 18:54:19,631 - modules.ocr - INFO - Processing page 4/10
+2025-06-29 18:54:19,632 - modules.ocr - INFO - Processing single page 4 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:54:19,632 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:54:38,714 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:54:38,714 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:54:38,718 - modules.ocr - INFO - Successfully processed page 4
+2025-06-29 18:54:38,720 - modules.ocr - INFO - Processing page 5/10
+2025-06-29 18:54:38,720 - modules.ocr - INFO - Processing single page 5 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:54:38,721 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:54:58,242 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:54:58,243 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:54:58,246 - modules.ocr - INFO - Successfully processed page 5
+2025-06-29 18:54:58,248 - modules.ocr - INFO - Processing page 6/10
+2025-06-29 18:54:58,248 - modules.ocr - INFO - Processing single page 6 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:54:58,248 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:55:33,804 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:55:33,805 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:55:33,808 - modules.ocr - INFO - Successfully processed page 6
+2025-06-29 18:55:33,810 - modules.ocr - INFO - Processing page 7/10
+2025-06-29 18:55:33,811 - modules.ocr - INFO - Processing single page 7 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:55:33,811 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:55:44,436 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:55:44,437 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:55:44,440 - modules.ocr - INFO - Successfully processed page 7
+2025-06-29 18:55:44,442 - modules.ocr - INFO - Processing page 8/10
+2025-06-29 18:55:44,442 - modules.ocr - INFO - Processing single page 8 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:55:44,443 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:55:59,478 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:55:59,479 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:55:59,482 - modules.ocr - INFO - Successfully processed page 8
+2025-06-29 18:55:59,483 - modules.ocr - INFO - Processing page 9/10
+2025-06-29 18:55:59,484 - modules.ocr - INFO - Processing single page 9 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:55:59,484 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:56:05,803 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:56:05,804 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:56:05,807 - modules.ocr - INFO - Successfully processed page 9
+2025-06-29 18:56:05,809 - modules.ocr - INFO - Processing page 10/10
+2025-06-29 18:56:05,810 - modules.ocr - INFO - Processing single page 10 of 10 for combinepdf (47)11.pdf
+2025-06-29 18:56:05,810 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 18:56:12,009 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 18:56:12,010 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 18:56:12,013 - modules.ocr - INFO - Successfully processed page 10
+2025-06-29 18:56:12,014 - modules.ocr - INFO - Combining page results
+2025-06-29 18:56:12,015 - modules.ocr - INFO - Combining results from 10 pages for combinepdf (47)11.pdf
+2025-06-29 18:56:12,016 - modules.ocr - INFO - Successfully processed 10 out of 10 pages
+2025-06-29 18:56:12,016 - modules.ocr - INFO - Combined results: 10 successful pages, 0 failed pages
+2025-06-29 18:56:12,016 - __main__ - INFO - Document processed successfully
+2025-06-29 18:56:12,017 - __main__ - INFO - Validating structured data against legal schema
+2025-06-29 18:56:12,017 - __main__ - INFO - Schema validation passed
+2025-06-29 18:56:12,017 - __main__ - ERROR - Error saving to schema database: name 'save_to_schema_db' is not defined
+2025-06-29 18:56:12,018 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 19:00:29,761 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:00:29,765 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:00:29,775 - modules.openai_processor - ERROR - Error loading schema: [Errno 2] No such file or directory: 'MSTRL-OCR/schemas/legal_schema.json'
+2025-06-29 19:00:35,985 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:00:35,986 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:00:35,995 - modules.openai_processor - ERROR - Error loading schema: [Errno 2] No such file or directory: 'MSTRL-OCR/schemas/legal_schema.json'
+2025-06-29 19:00:36,532 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:00:36,533 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:00:36,548 - modules.openai_processor - ERROR - Error loading schema: [Errno 2] No such file or directory: 'MSTRL-OCR/schemas/legal_schema.json'
+2025-06-29 19:00:36,549 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 19:00:36,550 - __main__ - INFO - Processing file 1/1: combinepdf (47)11.pdf
+2025-06-29 19:00:36,567 - __main__ - INFO - File read successfully: combinepdf (47)11.pdf
+2025-06-29 19:00:36,567 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 19:00:50,507 - __main__ - INFO - OCR request successful
+2025-06-29 19:00:50,513 - __main__ - INFO - Text extracted successfully
+2025-06-29 19:00:50,520 - __main__ - INFO - File metadata calculated: 10 pages, 4773 words
+2025-06-29 19:00:50,521 - __main__ - INFO - Processing multi-page document with 10 pages
+2025-06-29 19:00:50,521 - modules.ocr - INFO - Processing document pages for combinepdf (47)11.pdf
+2025-06-29 19:00:50,521 - modules.ocr - INFO - Found 10 pages
+2025-06-29 19:00:50,521 - modules.ocr - INFO - Processing 10 pages
+2025-06-29 19:00:50,522 - modules.ocr - INFO - Processing page 1/10
+2025-06-29 19:00:50,522 - modules.ocr - INFO - Processing single page 1 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:00:50,522 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:01:08,544 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:01:08,544 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:01:08,547 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 19:01:08,549 - modules.ocr - INFO - Processing page 2/10
+2025-06-29 19:01:08,549 - modules.ocr - INFO - Processing single page 2 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:01:08,549 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:01:24,196 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:01:24,197 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:01:24,200 - modules.ocr - INFO - Successfully processed page 2
+2025-06-29 19:01:24,201 - modules.ocr - INFO - Processing page 3/10
+2025-06-29 19:01:24,202 - modules.ocr - INFO - Processing single page 3 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:01:24,202 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:01:35,713 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:01:35,714 - modules.ocr - ERROR - Failed to parse structured data for page: Unterminated string starting at: line 26 column 16 (char 975)
+2025-06-29 19:01:35,716 - modules.ocr - ERROR - Error processing page 3: Failed to parse structured data: Unterminated string starting at: line 26 column 16 (char 975)
+2025-06-29 19:01:35,718 - modules.ocr - INFO - Processing page 4/10
+2025-06-29 19:01:35,719 - modules.ocr - INFO - Processing single page 4 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:01:35,719 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:01:59,454 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:01:59,455 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:01:59,457 - modules.ocr - INFO - Successfully processed page 4
+2025-06-29 19:01:59,458 - modules.ocr - INFO - Processing page 5/10
+2025-06-29 19:01:59,458 - modules.ocr - INFO - Processing single page 5 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:01:59,459 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:02:20,337 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:02:20,338 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:02:20,341 - modules.ocr - INFO - Successfully processed page 5
+2025-06-29 19:02:20,342 - modules.ocr - INFO - Processing page 6/10
+2025-06-29 19:02:20,342 - modules.ocr - INFO - Processing single page 6 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:02:20,343 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:02:37,705 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:02:37,706 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:02:37,709 - modules.ocr - INFO - Successfully processed page 6
+2025-06-29 19:02:37,711 - modules.ocr - INFO - Processing page 7/10
+2025-06-29 19:02:37,712 - modules.ocr - INFO - Processing single page 7 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:02:37,712 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:02:52,979 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:02:52,979 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:02:52,982 - modules.ocr - INFO - Successfully processed page 7
+2025-06-29 19:02:52,984 - modules.ocr - INFO - Processing page 8/10
+2025-06-29 19:02:52,984 - modules.ocr - INFO - Processing single page 8 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:02:52,985 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:03:09,255 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:03:09,256 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:03:09,258 - modules.ocr - INFO - Successfully processed page 8
+2025-06-29 19:03:09,260 - modules.ocr - INFO - Processing page 9/10
+2025-06-29 19:03:09,260 - modules.ocr - INFO - Processing single page 9 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:03:09,261 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:03:17,661 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:03:17,662 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:03:17,665 - modules.ocr - INFO - Successfully processed page 9
+2025-06-29 19:03:17,666 - modules.ocr - INFO - Processing page 10/10
+2025-06-29 19:03:17,667 - modules.ocr - INFO - Processing single page 10 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:03:17,668 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:03:27,783 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:03:27,785 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:03:27,788 - modules.ocr - INFO - Successfully processed page 10
+2025-06-29 19:03:27,790 - modules.ocr - INFO - Combining page results
+2025-06-29 19:03:27,791 - modules.ocr - INFO - Combining results from 10 pages for combinepdf (47)11.pdf
+2025-06-29 19:03:27,791 - modules.ocr - WARNING - Skipping page with error: Failed to parse structured data: Unterminated string starting at: line 26 column 16 (char 975)
+2025-06-29 19:03:27,791 - modules.ocr - INFO - Successfully processed 9 out of 10 pages
+2025-06-29 19:03:27,792 - modules.ocr - INFO - Combined results: 9 successful pages, 1 failed pages
+2025-06-29 19:03:27,792 - __main__ - INFO - Document processed successfully
+2025-06-29 19:03:27,792 - __main__ - ERROR - OpenAI processing error: Schema not loaded
+2025-06-29 19:03:27,793 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 19:05:41,377 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:05:41,384 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:05:41,394 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:05:41,394 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:05:41,394 - __main__ - ERROR - No files uploaded
+2025-06-29 19:05:44,899 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:05:44,900 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:05:44,910 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:05:44,911 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:05:45,513 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:05:45,514 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:05:45,531 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:05:45,531 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:05:45,532 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 19:05:45,533 - __main__ - INFO - Processing file 1/1: combinepdf (47)11.pdf
+2025-06-29 19:05:45,549 - __main__ - INFO - File read successfully: combinepdf (47)11.pdf
+2025-06-29 19:05:45,549 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 19:05:57,096 - __main__ - INFO - OCR request successful
+2025-06-29 19:05:57,099 - __main__ - INFO - Text extracted successfully
+2025-06-29 19:05:57,106 - __main__ - INFO - File metadata calculated: 10 pages, 4613 words
+2025-06-29 19:05:57,107 - __main__ - INFO - Processing multi-page document with 10 pages
+2025-06-29 19:05:57,108 - modules.ocr - INFO - Processing document pages for combinepdf (47)11.pdf
+2025-06-29 19:05:57,108 - modules.ocr - INFO - Found 10 pages
+2025-06-29 19:05:57,108 - modules.ocr - INFO - Processing 10 pages
+2025-06-29 19:05:57,109 - modules.ocr - INFO - Processing page 1/10
+2025-06-29 19:05:57,109 - modules.ocr - INFO - Processing single page 1 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:05:57,109 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:06:10,599 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:06:10,600 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:06:10,604 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 19:06:10,605 - modules.ocr - INFO - Processing page 2/10
+2025-06-29 19:06:10,605 - modules.ocr - INFO - Processing single page 2 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:06:10,606 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:06:29,040 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:06:29,041 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:06:29,044 - modules.ocr - INFO - Successfully processed page 2
+2025-06-29 19:06:29,046 - modules.ocr - INFO - Processing page 3/10
+2025-06-29 19:06:29,046 - modules.ocr - INFO - Processing single page 3 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:06:29,046 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:06:34,042 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:06:34,042 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:06:34,045 - modules.ocr - INFO - Successfully processed page 3
+2025-06-29 19:06:34,047 - modules.ocr - INFO - Processing page 4/10
+2025-06-29 19:06:34,048 - modules.ocr - INFO - Processing single page 4 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:06:34,048 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:06:58,700 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:06:58,700 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:06:58,704 - modules.ocr - INFO - Successfully processed page 4
+2025-06-29 19:06:58,705 - modules.ocr - INFO - Processing page 5/10
+2025-06-29 19:06:58,706 - modules.ocr - INFO - Processing single page 5 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:06:58,706 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:07:18,399 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:07:18,400 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:07:18,404 - modules.ocr - INFO - Successfully processed page 5
+2025-06-29 19:07:18,405 - modules.ocr - INFO - Processing page 6/10
+2025-06-29 19:07:18,406 - modules.ocr - INFO - Processing single page 6 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:07:18,406 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:07:30,744 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:07:30,746 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:07:30,749 - modules.ocr - INFO - Successfully processed page 6
+2025-06-29 19:07:30,752 - modules.ocr - INFO - Processing page 7/10
+2025-06-29 19:07:30,753 - modules.ocr - INFO - Processing single page 7 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:07:30,753 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:07:31,072 - modules.ocr - ERROR - API Error for page: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 19:07:31,076 - modules.ocr - ERROR - Error processing page 7: API Error: 429 - {"object":"error","message":"Service tier capacity exceeded for this model.","type":"invalid_request_error","param":null,"code":null}
+2025-06-29 19:07:31,078 - modules.ocr - INFO - Processing page 8/10
+2025-06-29 19:07:31,078 - modules.ocr - INFO - Processing single page 8 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:07:31,078 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:07:44,619 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:07:44,619 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:07:44,622 - modules.ocr - INFO - Successfully processed page 8
+2025-06-29 19:07:44,624 - modules.ocr - INFO - Processing page 9/10
+2025-06-29 19:07:44,624 - modules.ocr - INFO - Processing single page 9 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:07:44,624 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:07:50,986 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:07:50,987 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:07:50,990 - modules.ocr - INFO - Successfully processed page 9
+2025-06-29 19:07:50,991 - modules.ocr - INFO - Processing page 10/10
+2025-06-29 19:07:50,992 - modules.ocr - INFO - Processing single page 10 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:07:50,992 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:08:02,122 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:08:02,122 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:08:02,125 - modules.ocr - INFO - Successfully processed page 10
+2025-06-29 19:08:02,127 - modules.ocr - INFO - Combining page results
+2025-06-29 19:08:02,128 - modules.ocr - INFO - Combining results from 10 pages for combinepdf (47)11.pdf
+2025-06-29 19:08:02,129 - modules.ocr - WARNING - Skipping page with error: API Error 429
+2025-06-29 19:08:02,129 - modules.ocr - INFO - Successfully processed 9 out of 10 pages
+2025-06-29 19:08:02,129 - modules.ocr - INFO - Combined results: 9 successful pages, 1 failed pages
+2025-06-29 19:08:02,130 - __main__ - INFO - Document processed successfully
+2025-06-29 19:08:09,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 19:08:09,116 - modules.openai_processor - ERROR - Error parsing OpenAI response: Expecting value: line 1 column 1 (char 0)
+2025-06-29 19:08:09,117 - __main__ - ERROR - OpenAI processing error: Error parsing response: Expecting value: line 1 column 1 (char 0)
+2025-06-29 19:08:09,118 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 19:10:03,380 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:10:03,388 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:10:03,402 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:10:03,402 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:10:03,403 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 19:10:03,404 - __main__ - INFO - Processing file 1/1: combinepdf (47)11.pdf
+2025-06-29 19:10:03,416 - __main__ - INFO - File read successfully: combinepdf (47)11.pdf
+2025-06-29 19:10:03,416 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 19:10:13,607 - __main__ - INFO - OCR request successful
+2025-06-29 19:10:13,608 - __main__ - INFO - Text extracted successfully
+2025-06-29 19:10:13,617 - __main__ - INFO - File metadata calculated: 10 pages, 4674 words
+2025-06-29 19:10:13,617 - __main__ - INFO - Processing multi-page document with 10 pages
+2025-06-29 19:10:13,617 - modules.ocr - INFO - Processing document pages for combinepdf (47)11.pdf
+2025-06-29 19:10:13,618 - modules.ocr - INFO - Found 10 pages
+2025-06-29 19:10:13,618 - modules.ocr - INFO - Processing 10 pages
+2025-06-29 19:10:13,618 - modules.ocr - INFO - Processing page 1/10
+2025-06-29 19:10:13,618 - modules.ocr - INFO - Processing single page 1 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:10:13,619 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:10:24,051 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:10:24,053 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:10:24,055 - modules.ocr - INFO - Successfully processed page 1
+2025-06-29 19:10:24,057 - modules.ocr - INFO - Processing page 2/10
+2025-06-29 19:10:24,057 - modules.ocr - INFO - Processing single page 2 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:10:24,057 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:10:37,086 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:10:37,087 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:10:37,090 - modules.ocr - INFO - Successfully processed page 2
+2025-06-29 19:10:37,092 - modules.ocr - INFO - Processing page 3/10
+2025-06-29 19:10:37,093 - modules.ocr - INFO - Processing single page 3 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:10:37,093 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:10:48,629 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:10:48,629 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:10:48,632 - modules.ocr - INFO - Successfully processed page 3
+2025-06-29 19:10:48,634 - modules.ocr - INFO - Processing page 4/10
+2025-06-29 19:10:48,634 - modules.ocr - INFO - Processing single page 4 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:10:48,634 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:11:17,958 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:11:17,959 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:11:17,963 - modules.ocr - INFO - Successfully processed page 4
+2025-06-29 19:11:17,966 - modules.ocr - INFO - Processing page 5/10
+2025-06-29 19:11:17,966 - modules.ocr - INFO - Processing single page 5 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:11:17,966 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:12:06,765 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:12:06,766 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:12:06,769 - modules.ocr - INFO - Successfully processed page 5
+2025-06-29 19:12:06,771 - modules.ocr - INFO - Processing page 6/10
+2025-06-29 19:12:06,771 - modules.ocr - INFO - Processing single page 6 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:12:06,771 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:12:26,727 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:12:26,727 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:12:26,730 - modules.ocr - INFO - Successfully processed page 6
+2025-06-29 19:12:26,731 - modules.ocr - INFO - Processing page 7/10
+2025-06-29 19:12:26,732 - modules.ocr - INFO - Processing single page 7 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:12:26,732 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:12:41,899 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:12:41,899 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:12:41,902 - modules.ocr - INFO - Successfully processed page 7
+2025-06-29 19:12:41,904 - modules.ocr - INFO - Processing page 8/10
+2025-06-29 19:12:41,904 - modules.ocr - INFO - Processing single page 8 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:12:41,905 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:12:59,089 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:12:59,089 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:12:59,091 - modules.ocr - INFO - Successfully processed page 8
+2025-06-29 19:12:59,092 - modules.ocr - INFO - Processing page 9/10
+2025-06-29 19:12:59,092 - modules.ocr - INFO - Processing single page 9 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:12:59,092 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:13:03,998 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:13:03,999 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:13:04,002 - modules.ocr - INFO - Successfully processed page 9
+2025-06-29 19:13:04,003 - modules.ocr - INFO - Processing page 10/10
+2025-06-29 19:13:04,004 - modules.ocr - INFO - Processing single page 10 of 10 for combinepdf (47)11.pdf
+2025-06-29 19:13:04,004 - modules.ocr - INFO - Sending request to Mistral API for page processing
+2025-06-29 19:13:30,687 - modules.ocr - INFO - Received successful response from Mistral API for page
+2025-06-29 19:13:30,688 - modules.ocr - INFO - Successfully parsed structured data for page
+2025-06-29 19:13:30,691 - modules.ocr - INFO - Successfully processed page 10
+2025-06-29 19:13:30,694 - modules.ocr - INFO - Combining page results
+2025-06-29 19:13:30,694 - modules.ocr - INFO - Combining results from 10 pages for combinepdf (47)11.pdf
+2025-06-29 19:13:30,695 - modules.ocr - INFO - Successfully processed 10 out of 10 pages
+2025-06-29 19:13:30,695 - modules.ocr - INFO - Combined results: 10 successful pages, 0 failed pages
+2025-06-29 19:13:30,696 - __main__ - INFO - Document processed successfully
+2025-06-29 19:13:33,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 19:13:33,293 - modules.openai_processor - WARNING - No case name found in response
+2025-06-29 19:13:33,295 - modules.openai_processor - INFO - Saved processed data to MSTRL-OCR/schema_db/Unknown_Case_20250629_191333.json
+2025-06-29 19:13:33,296 - __main__ - INFO - OpenAI processing successful
+2025-06-29 19:13:33,296 - __main__ - INFO - Schema validation passed
+2025-06-29 19:13:33,297 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 19:14:20,826 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:14:20,828 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:14:20,838 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:14:20,839 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:14:40,067 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:14:40,068 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:14:40,079 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:14:40,080 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:14:40,814 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:14:40,815 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:14:40,830 - modules.openai_processor - INFO - Attempting to load schema from: /Users/astaneh/MISTRAL OCR/MSTRL-OCR/schemas/legal_schema.json
+2025-06-29 19:14:40,830 - modules.openai_processor - INFO - Successfully loaded schema
+2025-06-29 19:14:40,831 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 19:14:40,831 - __main__ - INFO - Processing file 1/1: Frame 177.pdf
+2025-06-29 19:14:40,834 - __main__ - INFO - File read successfully: Frame 177.pdf
+2025-06-29 19:14:40,835 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 19:14:43,805 - __main__ - INFO - OCR request successful
+2025-06-29 19:14:43,806 - __main__ - INFO - Text extracted successfully
+2025-06-29 19:14:43,807 - __main__ - INFO - File metadata calculated: 1 pages, 176 words
+2025-06-29 19:14:43,808 - __main__ - INFO - Processing single-page document
+2025-06-29 19:14:43,808 - modules.ocr - INFO - Processing single chunk for Frame 177.pdf
+2025-06-29 19:14:43,809 - modules.ocr - INFO - Sending request to Mistral API
+2025-06-29 19:15:00,898 - modules.ocr - INFO - Received successful response from Mistral API
+2025-06-29 19:15:00,899 - modules.ocr - INFO - Successfully parsed structured data
+2025-06-29 19:15:00,903 - __main__ - INFO - Document processed successfully
+2025-06-29 19:15:03,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 19:15:03,523 - modules.openai_processor - WARNING - No case name found in response
+2025-06-29 19:15:03,524 - modules.openai_processor - INFO - Saved processed data to MSTRL-OCR/schema_db/Unknown_Case_20250629_191503.json
+2025-06-29 19:15:03,524 - __main__ - INFO - OpenAI processing successful
+2025-06-29 19:15:03,525 - __main__ - INFO - Schema validation passed
+2025-06-29 19:15:03,527 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 19:15:30,728 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:15:30,732 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:15:30,733 - __main__ - ERROR - No files uploaded
+2025-06-29 19:15:38,626 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:15:38,628 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:15:40,206 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 19:15:40,208 - modules.schema_validator - INFO - Successfully loaded schema from schemas/legal_schema.json
+2025-06-29 19:15:40,211 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 19:15:40,213 - __main__ - INFO - Processing file 1/1: Frame 177.pdf
+2025-06-29 19:15:40,214 - __main__ - INFO - File read successfully: Frame 177.pdf
+2025-06-29 19:15:40,215 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 19:15:42,006 - __main__ - INFO - OCR request successful
+2025-06-29 19:15:42,009 - __main__ - INFO - Text extracted successfully
+2025-06-29 19:15:42,010 - __main__ - INFO - File metadata calculated: 1 pages, 176 words
+2025-06-29 19:15:42,010 - __main__ - INFO - Processing single-page document
+2025-06-29 19:15:42,010 - modules.ocr - INFO - Processing single chunk for Frame 177.pdf
+2025-06-29 19:15:42,011 - modules.ocr - INFO - Sending request to Mistral API
+2025-06-29 19:15:51,229 - modules.ocr - INFO - Received successful response from Mistral API
+2025-06-29 19:15:51,229 - modules.ocr - INFO - Successfully parsed structured data
+2025-06-29 19:15:51,233 - __main__ - INFO - Document processed successfully
+2025-06-29 19:15:51,233 - __main__ - INFO - Validating structured data against legal schema
+2025-06-29 19:15:51,234 - __main__ - INFO - Schema validation passed
+2025-06-29 19:15:51,236 - __main__ - INFO - Processed 1 document(s)
+2025-06-29 23:04:43,546 - __main__ - INFO - Starting Mistral Document AI OCR App
+2025-06-29 23:04:43,549 - __main__ - INFO - Starting OCR process for 1 document(s)
+2025-06-29 23:04:43,549 - __main__ - INFO - Processing file 1/1: Frame 177.pdf
+2025-06-29 23:04:43,550 - __main__ - INFO - File read successfully: Frame 177.pdf
+2025-06-29 23:04:43,551 - __main__ - INFO - Sending OCR request to Mistral API
+2025-06-29 23:04:47,675 - __main__ - INFO - OCR request successful
+2025-06-29 23:04:47,678 - __main__ - INFO - Text extracted successfully
+2025-06-29 23:04:47,679 - __main__ - INFO - File metadata calculated: 1 pages, 176 words
+2025-06-29 23:04:47,679 - __main__ - INFO - Processing single-page document
+2025-06-29 23:04:47,679 - modules.ocr - INFO - Processing single chunk for Frame 177.pdf
+2025-06-29 23:04:47,679 - modules.ocr - INFO - Sending request to Mistral API
+2025-06-29 23:05:12,269 - modules.ocr - INFO - Received successful response from Mistral API
+2025-06-29 23:05:12,269 - modules.ocr - INFO - Successfully parsed structured data
+2025-06-29 23:05:12,274 - __main__ - INFO - Document processed successfully
+2025-06-29 23:05:12,276 - __main__ - INFO - Processed 1 document(s)
